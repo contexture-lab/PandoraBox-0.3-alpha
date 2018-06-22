@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+  <title>dot-10</title>
+  <path d="M5,9A4,4,0,1,1,9,5,4,4,0,0,1,5,9Z" fill-opacity="0"/>
+  <path d="M5,8.5A3.54,3.54,0,0,1,1.5,5,3.54,3.54,0,0,1,5,1.5,3.54,3.54,0,0,1,8.5,5,3.54,3.54,0,0,1,5,8.5Z" opacity="0.25" style="isolation: isolate"/>
+  <path d="M5,8A3.08,3.08,0,0,1,2,5,3.08,3.08,0,0,1,5,2,3.08,3.08,0,0,1,8,5,3.08,3.08,0,0,1,5,8Z" opacity="0.25" style="isolation: isolate"/>
+  <circle cx="5" cy="5" r="2.5" opacity="0.25" style="isolation: isolate"/>
+  <circle cx="5" cy="5" r="2" fill="#d8d8d8"/>
+</svg>
