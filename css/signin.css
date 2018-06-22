@@ -1,0 +1,169 @@
+body {
+    background-color: #222222;
+    background-image: url(../images/backs/tex01.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    color: white;
+    cursor: url(../images/cursors/cur1054.cur), progress !important;
+}
+
+a {cursor: url(../images/cursors/cur1054.cur), progress !important;}
+button {cursor: url(../images/cursors/cur1054.cur), progress !important;}
+input[type=radio]  {cursor: url(../images/cursors/cur1054.cur), progress !important;}
+.radio label {cursor: url(../images/cursors/cur1054.cur), progress !important;}
+input[type=submit] {cursor: url(../images/cursors/cur1054.cur), progress !important;}
+input[type=text] {cursor: url(../images/cursors/cur1046.cur), progress !important;}
+input[type=password] {cursor: url(../images/cursors/cur1046.cur), progress !important;}
+select {cursor: url(../images/cursors/cur1054.cur), progress !important;}
+textarea {
+    resize: none;
+    cursor: url(../images/cursors/cur1046.cur), progress !important;
+}
+
+.form-horizontal .form-group {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.btn-default {
+    color: #ffffff;
+    background-color: #222222;
+    border-color: #ffffff;
+    border-radius: 0px;
+    margin: 1px;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  color: #00ff00;
+  background-color: #222222;
+  border-color: #00ff00;
+}
+
+.btn-default2 {
+    color: #ffffff;
+    background-color: #222222;
+    border-color: #ffffff;
+    border-radius: 0px;
+    margin: 1px;
+    padding: 2px 4px;
+}
+
+.btn-default2:hover,
+.btn-default2:focus,
+.btn-default2.focus,
+.btn-default2:active,
+.btn-default2.active {
+  color: #00ff00;
+  background-color: #222222;
+  border-color: #00ff00;
+}
+
+.btn-default3 {
+    color: #ffffff;
+    background-color: #222222;
+    border-color: #ffffff;
+    border-radius: 4px;
+    margin: 0px;
+    padding: 1px 4px;
+    padding-bottom: 2px;
+}
+
+.btn-default3:hover,
+.btn-default3:focus,
+.btn-default3.focus,
+.btn-default3:active,
+.btn-default3.active {
+  color: #00ff00;
+  background-color: #222222;
+  border-color: #00ff00;
+}
+
+.btn-success {
+    color: #ffffff;
+    background-color: ##5cb85c;
+    border-color: #ffffff;
+    border-radius: 3px;
+    margin: 0px;
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success.focus,
+.btn-success:active,
+.btn-success.active,
+.open > .dropdown-toggle.btn-success {
+  color: #00ff00;
+  background-color: ##5cb85c;
+  border-color: #00ff00;
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: ##5cb85c;
+    border-color: #ffffff;
+    border-radius: 3px;
+    margin: 0px;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #00ff00;
+  background-color: ##5cb85c;
+  border-color: #00ff00;
+}
+
+.panel {
+    margin-bottom: 10px;
+    background-color: #222222;
+    opacity: .93;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.panel-default {
+    border-color: #ffffff;
+}
+
+.panel-default:hover {
+    border-color: #2a9fd6;
+}
+
+.panel-default > .panel-heading {
+    color: #2a9fd6;
+    background-color: #3c3c3c;
+    border-color: #282828;
+    padding: 10px;
+}
+
+.panel-default > .panel-body {
+    color: #ffffff;
+    padding: 5px;
+}
+
+.panel-default > .panel-footer {
+    color: #2a9fd6;
+    background-color: #3c3c3c;
+    border-color: #282828;
+    padding: 5px;
+}
+
+.form-group {
+    margin-bottom: 2px;
+}
+
+.input-group-addon {
+    padding: 2px;
+}
+
