@@ -1,0 +1,49 @@
+{
+    "version": 8,
+    "name": "Satellite",
+    "metadata": {
+        "mapbox:autocomposite": true,
+        "mapbox:type": "default",
+        "mapbox:sdk-support": {
+            "js": "0.45.0",
+            "android": "6.0.0",
+            "ios": "4.0.0"
+        }
+    },
+    "center": [
+        -118.4106,
+        33.750013
+    ],
+    "zoom": 13,
+    "sources": {
+        "mapbox": {
+            "url": "mapbox://mapbox.satellite",
+            "type": "raster",
+            "tileSize": 256
+        }
+    },
+    "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
+    "layers": [
+        {
+            "id": "background",
+            "type": "background",
+            "paint": {
+                "background-color": "rgb(4,7,14)"
+            },
+            "interactive": true
+        },
+        {
+            "id": "satellite",
+            "type": "raster",
+            "source": "mapbox",
+            "source-layer": "mapbox_satellite_full",
+            "interactive": true
+        }
+    ],
+    "created": "2018-05-20T10:19:48.479Z",
+    "id": "cjheo75go2x9d2rs5bgfglslv",
+    "modified": "2018-05-20T10:19:48.479Z",
+    "owner": "kwynto",
+    "visibility": "private",
+    "draft": false
+}
